@@ -6,6 +6,7 @@
 [![Build Status](https://travis-ci.com/yaoyao-liu/strata-academic.svg?branch=master)](https://travis-ci.com/yaoyao-liu/strata-academic)
 
 [Demo the theme](https://strata-academic.yyliu.net/)
+[Try another Jekyll theme: Minimal Light](https://github.com/yaoyao-liu/minimal-light)
 
 ## Features
 
