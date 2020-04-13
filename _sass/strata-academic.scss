@@ -32,6 +32,35 @@ body {
   line-height: 1;
 }
 
+.social-icons a{
+  display:inline-block;
+  height:3rem;
+  width:3rem;
+  background-color:transparent;
+  color:rgba(255,255,255,0.5)!important;
+  border-bottom: dotted 0px;
+  text-align:center;
+  font-size:1.6rem;
+  line-height:2.9rem;margin-right:0.2rem}
+  
+.social-icons a:last-child{
+  margin-right:0}
+  
+.social-icons a:hover{
+  background-color:transparent}
+
+header-info {
+  font-size:17px;
+}
+
+header-title {
+  font-size:27px;
+}
+
+theme-info {
+  font-size:16px;
+}
+
 ol, ul {
   list-style: none;
 }
@@ -2681,7 +2710,7 @@ input, select, textarea {
 /* Main */
 
   #main {
-    margin-left: 26%;
+    margin-left: 28%;
     max-width: 54em;
     padding: 8em 4em 4em 4em;
     width: calc(100% - 35%);

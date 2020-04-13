@@ -38,8 +38,8 @@
           {% if site.avatar %}
           <a class="image avatar"><img src="{{site.avatar}}" alt="avatar" onContextMenu="return false" /></a>
           {% endif %}
-          <h1 class="editable"><font size="5"><strong>{{ site.title }}</strong><br></h1></font>
-          <font size="4" class="editable">
+          <h1 class="header-title"><strong><header-title>{{ site.title }}</header-title></strong><br></h1>
+          <header-info>
           {% if site.position %}
           {{ site.position }}<br>
           {% endif %}
@@ -51,7 +51,7 @@
           {{ site.email }}
           <br>
           {% endif %}
-          </font>
+          </header-info>
         </div>
       </header>
 
@@ -62,7 +62,7 @@
 
       {{ content }}
 
-      <font size="3">Powered by Jekyll and <a href="https://github.com/yaoyao-liu/strata-academic" target="_blank" rel="noopener">Strata Academic</a> theme.</font>
+      <theme-info>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/strata-academic" target="_blank" rel="noopener">Strata Academic</a> theme.</theme-info>
 
       </section>
 
@@ -82,9 +82,10 @@
             <li><a href="{{ site.google_scholar }}" class="icon brands fa-google"><span class="label">Google Scholar</span></a></li>
             {% endif %}
             {% if site.cv_link %}
-            <li><a href="{{ site.cv_link }}" class="icon solid fa-file-pdf"><span class="label">Email</span></a></li>
+            <li><a href="{{ site.cv_link }}" class="icon solid fa-file-pdf"><span class="label">CV</span></a></li>
             {% endif %}
           </ul>
+
         </div>
       </footer>
 
