@@ -5,6 +5,7 @@
 [![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.5-orange.svg)](https://jekyllrb.com/)
 
 [Demo the theme](https://strata-academic.yyliu.net/)
+
 [Try another Jekyll theme: Minimal Light](https://github.com/yaoyao-liu/minimal-light)
 
 ## Features
