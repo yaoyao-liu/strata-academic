@@ -6,17 +6,12 @@
 
 [Demo the theme](https://strata-academic.yyliu.net/)
 
-*This is the source code of my homepage. I build this website based on [minimal](https://github.com/orderedlist/minimal).*
-<br>
-*Feel free to use or share the source code anywhere you like.*
-
 ## Features
 
 - Simple and elegant personal homepage theme
 - Jekyll theme, deploy automatically by GitHub pages
 - Mobile friendly
 - Support Markdown 
-- Support dark mode
 
 ## Usage
 
@@ -102,8 +97,8 @@ This work is licensed under a [Creative Commons Zero v1.0 Universal](https://git
 
 ## Acknowledgements
 
-Our project uses the source code from the following repositories:
+Our project uses the source code from the following projects:
 
 * [pages-themes/minimal](https://github.com/pages-themes/minimal)
 
-* [orderedlist/minimal](https://github.com/orderedlist/minimal)
+* [Strata-HTML5](https://html5up.net/strata)
