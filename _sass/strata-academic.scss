@@ -2048,7 +2048,7 @@ input, select, textarea {
       -webkit-transition: opacity 0.2s ease-in-out;
       -ms-transition: opacity 0.2s ease-in-out;
       transition: opacity 0.2s ease-in-out;
-      background: url("../img/bg.png");
+      background: url("../img/bg.jpg");
       border-radius: 0.35em;
       content: '';
       display: block;
@@ -2093,7 +2093,7 @@ input, select, textarea {
       }
 
       .image.thumb:hover:before {
-        background: url("../img/bg.png"), url("../img/bg.png");
+        background: url("../img/bg.jpg"), url("../img/bg.jpg");
         opacity: 1.0;
       }
 
@@ -2654,7 +2654,7 @@ input, select, textarea {
 
   #footer .copyright {
     color: rgba(255, 255, 255, 0.4);
-    font-size: 0.8em;
+    font-size: 0.6em;
     list-style: none;
     margin: 1em 0 0 0;
     padding: 0;
