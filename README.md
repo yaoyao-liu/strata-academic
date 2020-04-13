@@ -3,6 +3,7 @@
 [![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-academic)](https://github.com/yaoyao-liu/strata-academic/blob/master/LICENSE)
 [![gem](https://img.shields.io/gem/v/strata-academic)](https://rubygems.org/gems/strata-academic)
 [![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.5-orange.svg)](https://jekyllrb.com/)
+[![Build Status](https://travis-ci.com/yaoyao-liu/strata-academic.svg?branch=master)](https://travis-ci.com/yaoyao-liu/strata-academic)
 
 [Demo the theme](https://strata-academic.yyliu.net/)
 
