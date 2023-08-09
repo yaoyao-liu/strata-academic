@@ -18,7 +18,7 @@ layout: homepage
   <br>
   **IJCAI 2023 AI4TS WORKSHOP**.
   <br>
-  [[PDF](https://arxiv.org/abs/2306.13592)] [[Code](https://github.com/XindaLi304/TACOformer)] <strong><i style="color:#e74d3c">Oral Presentation</i></strong>
+  [[PDF](https://arxiv.org/abs/2306.13592)] [[Code](https://github.com/XindaLi304/TACOformer)] <strong><i style="color:#e74d3c"></i></strong>
 
 
 
