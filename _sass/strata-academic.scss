@@ -124,9 +124,9 @@ input, select, textarea {
       -ms-transition: none !important;
       transition: none !important;
     }
-  
+
   body, input, select, textarea {
-    color: #000000;
+    color: #a2a2a2;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-size: 16pt;
     font-weight: 400;
@@ -1793,7 +1793,7 @@ input, select, textarea {
   }
 
   header p {
-    color: #000000;
+    color: #b2b2b2;
     position: relative;
     margin: 0 0 1.5em 0;
   }
@@ -1829,7 +1829,7 @@ input, select, textarea {
   }
 
   label {
-    color: #000000;
+    color: #787878;
     display: block;
     font-size: 0.9em;
     font-weight: 400;
@@ -1883,7 +1883,7 @@ input, select, textarea {
   }
 
     select option {
-      color: #000000;
+      color: #787878;
       background: #fff;
     }
 
@@ -1923,7 +1923,7 @@ input, select, textarea {
     input[type="checkbox"] + label,
     input[type="radio"] + label {
       text-decoration: none;
-      color: #000000;
+      color: #a2a2a2;
       cursor: pointer;
       display: inline-block;
       font-size: 1em;
@@ -1966,8 +1966,8 @@ input, select, textarea {
 
     input[type="checkbox"]:checked + label:before,
     input[type="radio"]:checked + label:before {
-      background: #000000;
-      border-color: #000000;
+      background: #787878;
+      border-color: #787878;
       color: #fff;
       content: '\f00c';
     }
@@ -1986,22 +1986,22 @@ input, select, textarea {
   }
 
   ::-webkit-input-placeholder {
-    color: #000000 !important;
+    color: #b2b2b2 !important;
     opacity: 1.0;
   }
 
   :-moz-placeholder {
-    color: #000000 !important;
+    color: #b2b2b2 !important;
     opacity: 1.0;
   }
 
   ::-moz-placeholder {
-    color: #000000 !important;
+    color: #b2b2b2 !important;
     opacity: 1.0;
   }
 
   :-ms-input-placeholder {
-    color: #000000 !important;
+    color: #b2b2b2 !important;
     opacity: 1.0;
   }
 
@@ -2259,7 +2259,7 @@ input, select, textarea {
       }
 
       ul.labeled-icons li h3 {
-        color: #000000;
+        color: #b2b2b2;
         left: 0;
         position: absolute;
         text-align: center;
