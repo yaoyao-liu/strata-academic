@@ -126,7 +126,7 @@ input, select, textarea {
     }
 
   body, input, select, textarea {
-    color: #a2a2a2;
+    color: #666666;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-size: 16pt;
     font-weight: 400;
@@ -139,18 +139,18 @@ input, select, textarea {
     -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     border-bottom: dotted 1px;
-    color: #49bf9d;
+    color: #3CB371;
     text-decoration: none;
   }
 
     a:hover {
       border-bottom-color: transparent;
-      color: #49bf9d !important;
+      color: #3CB371 !important;
       text-decoration: none;
     }
 
   strong, b {
-    color: #000000;
+    color: #151515;
     font-weight: 400;
   }
 
@@ -163,7 +163,7 @@ input, select, textarea {
   }
 
   h1, h2, h3, h4, h5, h6 {
-    color: #000000;
+    color: #151515;
     font-weight: 400;
     line-height: 1em;
     margin: 0 0 1em 0;
@@ -1829,7 +1829,7 @@ input, select, textarea {
   }
 
   label {
-    color: #787878;
+    color: #151515;
     display: block;
     font-size: 0.9em;
     font-weight: 400;
@@ -1869,7 +1869,7 @@ input, select, textarea {
     input[type="email"]:focus,
     select:focus,
     textarea:focus {
-      border-color: #49bf9d;
+      border-color: #3CB371;
     }
 
   select {
@@ -1883,7 +1883,7 @@ input, select, textarea {
   }
 
     select option {
-      color: #787878;
+      color: #151515;
       background: #fff;
     }
 
@@ -1923,7 +1923,7 @@ input, select, textarea {
     input[type="checkbox"] + label,
     input[type="radio"] + label {
       text-decoration: none;
-      color: #a2a2a2;
+      color: #666666;
       cursor: pointer;
       display: inline-block;
       font-size: 1em;
@@ -1966,15 +1966,15 @@ input, select, textarea {
 
     input[type="checkbox"]:checked + label:before,
     input[type="radio"]:checked + label:before {
-      background: #787878;
-      border-color: #787878;
+      background: #151515;
+      border-color: #151515;
       color: #fff;
       content: '\f00c';
     }
 
     input[type="checkbox"]:focus + label:before,
     input[type="radio"]:focus + label:before {
-      border-color: #49bf9d;
+      border-color: #3CB371;
     }
 
   input[type="checkbox"] + label:before {
@@ -2056,7 +2056,7 @@ input, select, textarea {
     }
 
     .icon.solid:before {
-      font-weight: 900;
+      font-family: 'Font Awesome 5 Free';
     }
 
     .icon.brands:before {
@@ -2170,7 +2170,7 @@ input, select, textarea {
       }
 
       .image.avatar img {
-        border-radius: 100%;
+        border-radius: 10%;
         width: 100%;
       }
 
@@ -2412,11 +2412,11 @@ input, select, textarea {
       }
 
     table td {
-      padding: 0.75em 0.75em;
+      padding: 0.25em 0.5em;
     }
 
     table th {
-      color: #787878;
+      color: #151515;
       font-size: 0.9em;
       font-weight: 400;
       padding: 0 0.75em 0.75em 0.75em;
@@ -2474,7 +2474,7 @@ input, select, textarea {
     background-color: transparent;
     border-radius: 0.35em;
     border: solid 3px #efefef;
-    color: #787878 !important;
+    color: #151515 !important;
     cursor: pointer;
     display: inline-block;
     font-weight: 400;
@@ -2492,8 +2492,8 @@ input, select, textarea {
     input[type="reset"]:hover,
     input[type="button"]:hover,
     .button:hover {
-      border-color: #49bf9d;
-      color: #49bf9d !important;
+      border-color: #3CB371;
+      color: #3CB371 !important;
     }
 
     input[type="submit"]:active,
@@ -2501,8 +2501,8 @@ input, select, textarea {
     input[type="button"]:active,
     .button:active {
       background-color: rgba(73, 191, 157, 0.1);
-      border-color: #49bf9d;
-      color: #49bf9d !important;
+      border-color: #3CB371;
+      color: #3CB371 !important;
     }
 
     input[type="submit"].icon,
@@ -2545,8 +2545,8 @@ input, select, textarea {
     input[type="reset"].primary,
     input[type="button"].primary,
     .button.primary {
-      background-color: #49bf9d;
-      border-color: #49bf9d;
+      background-color: #3CB371;
+      border-color: #3CB371;
       color: #ffffff !important;
     }
 
@@ -2619,7 +2619,7 @@ input, select, textarea {
     -webkit-justify-content: space-between;
     -ms-justify-content: space-between;
     justify-content: space-between;
-    background-color: #1f1815;
+    background-color: #0C5CA0;
     background-attachment: scroll,                scroll;
     background-image: url("../img/bg.jpg");
     background-position: top left,              top left;
@@ -2628,7 +2628,7 @@ input, select, textarea {
     color: rgba(255, 255, 255, 0.5);
     height: 100%;
     left: 0;
-    padding: 8em 4em;
+    padding: 2em 1em;
     position: fixed;
     text-align: center;
     top: 0;
@@ -2668,7 +2668,7 @@ input, select, textarea {
 
     #header .image.avatar {
       margin: 0 0 1em 0;
-      width: 6.25em;
+      max-width: 10em;
     }
 
 /* Footer */
@@ -2678,7 +2678,7 @@ input, select, textarea {
   }
 
     #footer .icons a {
-      color: rgba(255, 255, 255, 0.4);
+      color: rgba(255, 255, 255, 0.8);
     }
 
   #footer .copyright {
@@ -2712,7 +2712,7 @@ input, select, textarea {
   #main {
     margin-left: 28%;
     max-width: 54em;
-    padding: 8em 4em 4em 4em;
+    padding: 3em 3em 3em 3em;
     width: calc(100% - 35%);
   }
 
@@ -3013,7 +3013,7 @@ input, select, textarea {
     /* Basic */
 
       body, input, select, textarea {
-        font-size: 12pt;
+        font-size: 14pt;
       }
 
   }
@@ -3025,7 +3025,7 @@ input, select, textarea {
     /* Header */
 
       #header {
-        padding: 6em 3em 3em 3em;
+        padding: 2em 1em;
         width: 30%;
       }
 
@@ -3056,7 +3056,7 @@ input, select, textarea {
       #main {
         margin-left: 30%;
         max-width: none;
-        padding: 6em 3em 3em 3em;
+        padding: 3em 3em 3em 3em;
         width: calc(100% - 30%);
       }
 
@@ -3085,7 +3085,7 @@ input, select, textarea {
         background-position: top left, center center;
         background-size: auto,    cover;
         left: auto;
-        padding: 6em 4em;
+        padding: 2em 4em;
         position: relative;
         text-align: center;
         top: auto;
@@ -3105,7 +3105,7 @@ input, select, textarea {
 
       #footer {
         background-attachment: scroll;
-        background-color: #1f1815;
+        background-color: #0C5CA0;
         background-image: url("../img/bg.jpg");
         background-position: top left,            bottom center;
         background-repeat: repeat,              no-repeat;
@@ -3138,7 +3138,7 @@ input, select, textarea {
 
       #main {
         margin: 0;
-        padding: 6em 4em;
+        padding: 5em 4em;
         width: 100%;
       }
 
