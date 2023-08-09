@@ -29,13 +29,13 @@ layout: homepage
   <br>
   Yanzhong Wang, Shiyuan E, **Xinda Li**, Yanrong Jia
   <br>
-  China Patent, Number:CN114646469A
+  China Patent, Authorized Publication Number:CN114739675B
 
 - **A roller-raceway failure mechanism test device driven by frequency-conversable electromagnetic force**
   <br>
   Yanzhong Wang, Shiyuan E, **Xinda Li**, Bin Xie
   <br>
-  China Patent, Number:CN114739675A
+  China Patent, Authorized Publication Number:CN114646469B
 
 ## Honors and Awards
 - **Sliver medal(TOP 2%), Ubiquant Market Prediction, Kaggle**, 2022
