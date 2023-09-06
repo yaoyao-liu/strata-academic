@@ -10,7 +10,7 @@ layout: homepage
 
 
 
-## Preprints 
+## Publications 
 
 - **TACOformer:Token-channel compounded Cross Attention for Multimodal Emotion Recognition**
   <br>
