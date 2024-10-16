@@ -1,13 +1,13 @@
-title: Your Name
-position: Ph.D. Student
-affiliation: Your Affiliation
-email: yourname (at) example.edu
+title: Jonathan Kelly
+position: Mathematics Student
+affiliation: Trinity College Dublin
+email: kellyj83@tcd.ie
 keywords: minimal academic
-google_scholar: https://scholar.google.com/
-github_link: https://github.com/yaoyao-liu/strata-academic
-linkedin: https://www.linkedin.com/
+#google_scholar: https://scholar.google.com/
+github_link: https://github.com/kellyj83
+linkedin: https://www.linkedin.com/in/jonathan-kelly-4b70121b3/
 cv_link: 
-avatar: ./assets/img/avatar.png
+avatar: ./assets/img/photo.png
 google_analytics: UA-111540567-4
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png

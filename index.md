@@ -2,10 +2,62 @@
 layout: homepage
 ---
 
-## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+
+I'm a graduate in Mathematics from Trinity College Dublin, currently working as a Risk Consultant at Murex. 
+
+## Research Interests
+- **Computational Mathematics:** Financial Modelling, Numerical PDE's
+- **Statistics:** Machine Learning, Time Series Analysis
+
+<br>
+[[CV](files/cv.pdf)] 
+---
+
+## Selected Projects
+
+---
+
+### Applying Stochastic Processes to Financial Modelling
+
+In this short project, I create a short HTML Document that explains how you can apply Stochastic Calculus (Geometric Brownian Motion, OU Process) to predict trends for Index Funds
+
+![Stochastics for Stocks](/images/stock.png)
+<div style="display: flex; justify-content: center;">
+  <a href="files/GBM_Doc.html" target="_blank">
+    <button style="background-color: #4CAF50; color: white; padding: 10px 20px; margin-right: 10px; border: none; border-radius: 5px; cursor: pointer;">
+      Project Doc
+    </button>
+  </a>
+</div>
+
+
+---
+
+### Final Year Thesis: Finite Element Method for Differential Equations
+
+In my undergraduate thesis, I explored the **Finite Element Method (FEM)** for solving 1D and 2D differential equations like the **Laplace Equation** and **Heat Equation**, along with **Elliptic PDEs**. Using **MATLAB**, I developed programs to solve these equations with **numerical quadrature**, applying the method to the **Black-Scholes equation** for pricing European Call/Put options.
+
+![FEM Photo](/images/fem.png)
+
+<div style="display: flex; justify-content: center;">
+  <a href="files/femthesis.pdf" target="_blank">
+    <button style="background-color: #4CAF50; color: white; padding: 10px 20px; margin-right: 10px; border: none; border-radius: 5px; cursor: pointer;">
+      Thesis
+    </button>
+  </a>
+  <a href="files/femposter.pdf" target="_blank">
+    <button style="background-color: #008CBA; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+      Poster
+    </button>
+  </a>
+</div>
+
+
+
+
+---
+
 
 ## News
 
