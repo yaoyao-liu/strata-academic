@@ -2,16 +2,14 @@
 layout: homepage
 ---
 
+## About Me
 
+---
 
 I'm a graduate in Mathematics from Trinity College Dublin, currently working as a Risk Consultant at Murex. 
 
-## Research Interests
-- **Computational Mathematics:** Financial Modelling, Numerical PDE's
-- **Statistics:** Machine Learning, Time Series Analysis
+I have a strong interest in Finance, Statistics, Music, and Sports, and am actively engaged in projects that focus on Computational Mathematics.
 
-<br>
-[[CV](files/cv.pdf)] 
 ---
 
 ## Selected Projects
@@ -22,9 +20,11 @@ I'm a graduate in Mathematics from Trinity College Dublin, currently working as 
 
 In this short project, I create a short HTML Document that explains how you can apply Stochastic Calculus (Geometric Brownian Motion, OU Process) to predict trends for Index Funds
 
-![Stochastics for Stocks](/images/stock.png)
+<div style="text-align: center;">
+    <img src="/images/stock.png" alt="Stochastics for Stocks" style="max-width: 100%; height: auto;">
+</div>
 <div style="display: flex; justify-content: center;">
-  <a href="files/GBM_Doc.html" target="_blank">
+  <a href="/files/GBM_Doc.html" target="_blank">
     <button style="background-color: #4CAF50; color: white; padding: 10px 20px; margin-right: 10px; border: none; border-radius: 5px; cursor: pointer;">
       Project Doc
     </button>
@@ -36,25 +36,13 @@ In this short project, I create a short HTML Document that explains how you can 
 
 ### Final Year Thesis: Finite Element Method for Differential Equations
 
-In my undergraduate thesis, I explored the **Finite Element Method (FEM)** for solving 1D and 2D differential equations like the **Laplace Equation** and **Heat Equation**, along with **Elliptic PDEs**. Using **MATLAB**, I developed programs to solve these equations with **numerical quadrature**, applying the method to the **Black-Scholes equation** for pricing European Call/Put options.
+In my undergraduate thesis, I investigated the **Finite Element Method (FEM)** for solving 1D and 2D **Partial Differential Equations (PDEs)**, such as the Poisson Equation, Heat Equation, and Elliptic PDEs. Using MATLAB, I implemented FEM with numerical quadrature and applied it to the **Black-Scholes equation** for pricing European call and put options, focusing on accuracy and error analysis.
 
-![FEM Photo](/images/fem.png)
 
-<div style="display: flex; justify-content: center;">
-  <a href="files/femthesis.pdf" target="_blank">
-    <button style="background-color: #4CAF50; color: white; padding: 10px 20px; margin-right: 10px; border: none; border-radius: 5px; cursor: pointer;">
-      Thesis
-    </button>
-  </a>
-  <a href="files/femposter.pdf" target="_blank">
-    <button style="background-color: #008CBA; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
-      Poster
-    </button>
-  </a>
+<div style="text-align: center;">
+    <img src="/images/stock.png" alt="Stochastics for Stocks" style="max-width: 100%; height: auto;">
 </div>
-
-
-
+  [[Thesis](/files/femthesis.pdf)] [[Poster](/files/femposter.pdf)]<strong><i style="color:#e74d3c">Oral Presentation</i></strong>
 
 ---
 
