@@ -19,8 +19,12 @@
     <link rel="canonical" href="{{ site.canonical }}"/>
     {% endif %}
 
+    {% if site.favicon_dark %}
     <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
+    {% endif %}
+    {% if site.favicon %}
     <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
+    {% endif %}
     <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
