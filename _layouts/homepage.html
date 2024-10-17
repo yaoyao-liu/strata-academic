@@ -23,7 +23,7 @@
     <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
     <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
 
-    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -73,16 +73,16 @@
         <div class="inner">
           <ul class="icons">
             {% if site.linkedin %}
-            <li><a href="{{ site.linkedin }}" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+            <li><a href="{{ site.linkedin }}" class="icon brands fa-linkedin-in"></a></li>
             {% endif %}
             {% if site.github_link %}
-            <li><a href="{{ site.github_link }}" class="icon brands fa-github"><span class="label">Github</span></a></li>
+            <li><a href="{{ site.github_link }}" class="icon brands fa-github"></a></li>
             {% endif %}
             {% if site.google_scholar %}
-            <li><a href="{{ site.google_scholar }}" class="icon brands fa-google-scholar"><span class="label">Google Scholar</span></a></li>
+            <li><a href="{{ site.google_scholar }}" class="ai ai-google-scholar ai-2x" style="border:none;vertical-align: -4px"></a></li>
             {% endif %}
             {% if site.cv_link %}
-            <li><a href="{{ site.cv_link }}" class="icon solid fa-file-pdf"><span class="label">CV</span></a></li>
+            <li><a href="{{ site.cv_link }}" class="ai ai-cv ai-2x" style="border:none;vertical-align: -4px"></a></li>
             {% endif %}
           </ul>
 
